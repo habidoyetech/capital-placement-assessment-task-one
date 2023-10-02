@@ -35,9 +35,7 @@ const MultipleChoice: React.FC<MultipleChoiceProps> = ({question, choicesList, o
       
     };
 
-    const onChange = (value: number) => {
-        console.log('changed', value);
-    };
+    
     
 
   return (

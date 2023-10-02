@@ -27,7 +27,7 @@ const SwitchHIdeShow: React.FC<SwitchProps> = ({status}) => {
       if (!status) {
         setSwitchValue('hide')
       }
-    }, [])
+    }, [status])
     
   
     
